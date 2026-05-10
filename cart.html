@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory | Shadow Market</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Shadow Market</a>
+    <a href="cart.html" class="cart-link" aria-label="Open inventory">
+      <span class="cart-icon">🛒</span>
+      <span id="cart-count" class="cart-count">0</span>
+    </a>
+  </header>
+
+  <main class="cart-page">
+    <section class="section-heading cart-heading">
+      <h1>Your Inventory</h1>
+      <p>Everything you secured from the shadows.</p>
+    </section>
+
+    <section class="cart-wrapper">
+      <div id="cart-items" class="cart-items"></div>
+
+      <aside class="cart-summary">
+        <h3>Inventory Summary</h3>
+        <div class="summary-row">
+          <span>Total</span>
+          <strong id="cart-total">₹0</strong>
+        </div>
+        <a href="index.html" class="btn btn-secondary">Continue Shopping</a>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
