@@ -28,7 +28,7 @@ Only shadow-forged steel and cinematic design.
 HTML • CSS • JavaScript (Vanilla)
 
 🚀 Run Locally
-git clone https://github.com/your-username/veil-of-bloodsteel.git
+git clone https://github.com/harsh-k1911/veil-of-bloodsteel.git
 
 Open index.html in your browser.
 
