@@ -12,6 +12,9 @@ No generic products.
 No basic UI.
 Only shadow-forged steel and cinematic design.
 
+🌐 Live Demo:
+🔗 https://veil-of-bloodsteel.vercel.app
+
 🔥 Features
 🥷 Curated ninja arsenal (katanas, masks, daggers, cloaks, shurikens)
 🛒 Inventory system with localStorage
